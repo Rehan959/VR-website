@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Alata", sans-serif;
+  overflow-x: hidden;
+}
+
+  li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  color: white;
+  font-size:20px;
+}
+
+.First {
+  background: url(./images/desktop/image-hero.jpg);
+  width: 100vw;
+  height: 80vh;
+ 
+}
+
+nav {
+  margin-left: 55%;
+  display: inline;
+}
+
+ul{
+  display: flex;
+}
+
+.second {
+  border: 2px solid white;
+  width: 500px;
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  padding:30px;
+  margin:20px;
+  margin-top:150px;
+  margin-left:100px;
+}
+
+.Logo{
+  margin:10px;
+}
+ 
+ 
+img{
+  -webkit-user-drag:none;
+}
+
+.First_inner{
+display: flex;
+}
+
+.Third  > img{
+  margin:60px;
+  margin-left:100px;
+}
+
+.Fourth{
+  height:200px;
+  padding:100px;
+margin-top:170px;
+position: relative;
+background-color: white;
+width:300px;
+margin-left:50%;
+}
+
+.Second_section{
+  display: flex;
+}
+
+.Third{
+  position: absolute;
+}
+
+p{
+color: grey;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:35px;
+  user-select:none;
+}
+ 
+p{
+  user-select:none;
+}
+
+.imgrow{
+  margin:50px;
+  margin-left:100px;
+}
+
+.imgrow img{
+  margin:10px;
+}
+ 
+ 
