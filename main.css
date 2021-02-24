@@ -21,7 +21,7 @@ body {
 .First {
   background: url(./images/desktop/image-hero.jpg);
   background-repeat:no-repeat;
-  width: 100vw;
+  width:100vw;
   height: 80vh;
  
 }
@@ -55,7 +55,7 @@ ul{
  
 img{
   -webkit-user-drag:none;
- 
+  image-rendering:auto;
 }
 
 .First_inner{
